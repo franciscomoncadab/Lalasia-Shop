@@ -2,7 +2,7 @@
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-     margin: 10px;
+     
 }
 
 hr{
@@ -14,11 +14,11 @@ hr{
 .btn{
      display: flex;
      flex-direction: column;
-     width: 3rem;
-     height: 3rem;
+     width: 30px;
+     height: 30px;
      border: 0;
      background: transparent;
-     gap: .65rem;
+     gap: .35rem;
 }
 
 .btn > div {

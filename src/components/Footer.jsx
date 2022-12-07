@@ -3,21 +3,21 @@ import { ReactComponent as Logo } from "../assets/icons/lalasiaLogo.svg";
 
 function Footer() {
   return (
-    <footer className="p-4 bg-white sm:px-6">
-      <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+    <footer className="bg-white">
+      <hr className="my-6 border-line-color sm:mx-auto lg:my-8" />
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <Logo />
-          <p className="mt-[20px] text-gray-400">
+          <p className="mt-[20px] text-paragraph-color font-exodo font-medium text-[14px]">
           Lalasia is digital agency that help you make better experience iaculis cras in.
           </p>
         </div>
         <div className="grid grid-cols-3 gap-8 sm:gap-[30px] sm:grid-cols-3">
           <div>
-            <h2 className="mb-[14px] text-sm font-semibold text-black uppercase">
+            <h6 className="mb-[14px] text-[16px] font-bold font-exodo text-title-color uppercase">
               Product
-            </h2>
-            <ul className="text-gray-600">
+            </h6>
+            <ul className="text-paragraph-color text-[14px] font-medium font-exodo">
               <li className="mb-[6px]">
                 <a href="#" className="hover:underline">
                   New Arrivals
@@ -41,10 +41,10 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-[14px] text-sm font-semibold text-black uppercase">
+            <h6 className="mb-[14px] text-[16px] font-bold font-exodo text-title-color uppercase">
               Services
-            </h2>
-            <ul className="text-gray-600 ">
+            </h6>
+            <ul className="text-paragraph-color text-[14px] font-medium font-exodo">
               <li className="mb-[6px]">
                 <a
                   href="#"
@@ -71,10 +71,10 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-black uppercase">
+            <h6 className="mb-6 text-[16px] font-bold font-exodo text-title-color uppercase">
               Follow Us
-            </h2>
-            <ul className="text-gray-600 ">
+            </h6>
+            <ul className="text-paragraph-color text-[14px] font-medium font-exodo ">
               <li className="mb-[6px]">
                 <a href="#" className="hover:underline">
                   Facebook

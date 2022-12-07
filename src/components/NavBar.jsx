@@ -6,16 +6,16 @@ function NavBar() {
   return (
     <div>
       <div className="nav">
-        <div>
+        <div className="my-auto">
           <Logo />
         </div>
-        <button className="btn">
+        <button className="btn my-[21px]">
           <div></div>
           <div></div>
           <div></div>
         </button>
       </div>
-      <hr />
+      <hr className="border-line-color" />
     </div>
   );
 }
