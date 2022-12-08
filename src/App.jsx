@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import Benefits from './components/Benefits';
+import Crafter from './components/Crafter';
 import Discover from './components/Discover';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
@@ -13,6 +14,7 @@ function App() {
       <Discover />
       <Benefits />
       <ProductSlider />
+      <Crafter />
       <Footer />
     </div>
   );
