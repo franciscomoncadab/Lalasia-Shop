@@ -1,6 +1,6 @@
 import React from "react";
 import Titles from "./Titles";
-import { cards } from "./cards";
+import { cards } from "../constants/cards";
 
 function Benefits() {
   return (
@@ -19,6 +19,7 @@ function Benefits() {
                          <div className="mt-[16px] mb-[14px] ml-[16px]">
                          <img 
                               src={elem.svg}
+                              alt={elem.svg}
                          />
                          </div>
                          <h6 className="font-exodo font-bold text-[16px] mt-[14px] text-title-color mx-[16px]">{elem.title}</h6>

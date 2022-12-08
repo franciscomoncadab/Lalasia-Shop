@@ -6,6 +6,7 @@ import Discover from './components/Discover';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import ProductSlider from './components/ProductSlider';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Benefits />
       <ProductSlider />
       <Crafter />
+      <Testimonials />
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Titles from "./Titles";
-import { products } from "./productsSlider";
+import { products } from "../constants/productsSlider";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/scss";
