@@ -12,7 +12,7 @@ import Testimonials from './components/Testimonials';
 
 function App() {
   return (
-    <div className="container mx-auto px-[24px]">
+    <div className="container mx-auto px-[24px] xl:px-[100px]">
       <NavBar />
       <Discover />
       <Benefits />

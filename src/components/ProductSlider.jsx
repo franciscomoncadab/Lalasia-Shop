@@ -11,6 +11,7 @@ function ProductSlider() {
     <div>
       <div className="text-center">
         <Titles
+          style="col"
           firstTitle="Product"
           secondTitle="Our Popular Product"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."

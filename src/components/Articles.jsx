@@ -7,6 +7,7 @@ function Articles() {
   return (
     <div>
       <Titles
+        style="col"
         firstTitle="Articles"
         secondTitle="The best furniture comes from Lalasia"
         p="Pellentesque etiam blandit in tincidunt at donec."
@@ -40,18 +41,31 @@ function Articles() {
       <div>
         {articles.map((elem, i) => {
           return (
-               <div key={i} className="flex flex-row gap-x-[14px] gap-y-[20px] mt-[20px]">
-                    <img src={elem.images} alt={elem.images} className="w-[110px] h-[110px]"/>
-                    <div>
-                         <p className="font-exodo font-bold text-[12px] text-paragraph-color mb-[4px]">{elem.name}</p>
-                         <h6 className="font-exodo font-bold text-[16px] text-title-color">{elem.title}</h6>
-                         <div className="flex flex-row gap-x-[6px] mt-[16px] items-center">
-                              <img src={elem.userImg} alt={elem.userImg}/>
-                              <p className="font-exodo font-bold text-[12px] text-title-color">{elem.userName}</p>
-                         </div>
-                    </div>
-               </div>
-          )
+            <div
+              key={i}
+              className="flex flex-row gap-x-[14px] gap-y-[20px] mt-[20px]"
+            >
+              <img
+                src={elem.images}
+                alt={elem.images}
+                className="w-[110px] h-[110px]"
+              />
+              <div>
+                <p className="font-exodo font-bold text-[12px] text-paragraph-color mb-[4px]">
+                  {elem.name}
+                </p>
+                <h6 className="font-exodo font-bold text-[16px] text-title-color">
+                  {elem.title}
+                </h6>
+                <div className="flex flex-row gap-x-[6px] mt-[16px] items-center">
+                  <img src={elem.userImg} alt={elem.userImg} />
+                  <p className="font-exodo font-bold text-[12px] text-title-color">
+                    {elem.userName}
+                  </p>
+                </div>
+              </div>
+            </div>
+          );
         })}
       </div>
     </div>

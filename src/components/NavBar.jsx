@@ -29,7 +29,7 @@ function NavBar() {
             </div>
           )}
         </div>
-          <div className="flex flex-row gap-x-[28px] items-center">
+          <div className="lg:flex lg:flex-row gap-x-[28px] items-center hidden">
                 <Bag />
                 <User />
           </div>

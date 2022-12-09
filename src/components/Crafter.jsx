@@ -8,6 +8,7 @@ function Crafter() {
     <div>
       <div>
         <Titles
+          style="col"
           firstTitle="Our Product"
           secondTitle="Crafted by talented and high quality material"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."

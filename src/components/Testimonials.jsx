@@ -13,6 +13,7 @@ function Testimonials() {
     <div>
       <div>
         <Titles
+          style="col"
           firstTitle="Testimonials"
           secondTitle="What our customer say"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."
