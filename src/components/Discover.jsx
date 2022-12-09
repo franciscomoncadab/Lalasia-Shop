@@ -8,9 +8,9 @@ function Discover() {
   return (
     <div className="mt-[50px]">
       <div className="relative">
-        <CircularLogo className="absolute top-[24.88px] left-[-12px] w-[60.43px] h-[60.43px]" />
+        <CircularLogo className="absolute top-[24.88px] left-[-3%] w-[60.43px] h-[60.43px]" />
         <h3 className="font-bold font-exodo text-[26px] text-center text-title-color">Discover Furniture With <br/> High Quality Wood</h3>
-        <Stars className="absolute left-[285px] top-[37px] w-[24px] h-[24px]" />
+        <Stars className="absolute right-[10%] top-[37px] w-[24px] h-[24px]" />
       </div>
       <div className="mt-[20px]">
         <p className="text-paragraph-color text-center text-[14px] font-medium font-exodo">
@@ -22,7 +22,7 @@ function Discover() {
       <div className="relative z-0 mt-[30px] mx-auto">
           <Search className="absolute z-10 top-[15px] left-[15px]" />
           <input
-               className="shadow-[0px_4px_30px_-20px_rgba(175,173,181,0.2)] shadow-title-color text-[14px] font-exodo font-medium w-full h-[54px] pl-[50px]"
+               className="shadow-[0px_4px_30px_-20px_rgba(175,173,181,0.2)] shadow-title-color text-[14px] font-exodo font-medium w-full h-[54px] pl-[50px] max-w-[810px]"
                placeholder="Search property"
            />
            <button className="absolute bg-primary-color text-screen-color px-[26px] py-[10px] z-10 right-[1.5%] top-[4.5px]">
