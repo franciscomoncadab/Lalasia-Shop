@@ -22,7 +22,7 @@ function Testimonials() {
         <Swiper loop={true} modules={[Pagination, Navigation]}>
           {cardsTest.map((elem, i) => {
             return (
-              <SwiperSlide className="px-[16px]">
+              <SwiperSlide key={i} className="px-[16px]">
                 <Quote className="w-[32px] h-[32px] my-[18px]" />
                 <p className="font-exodo font-medium text-[14px] text-paragraph-color mb-[18px]">
                   Pellentesque etiam blandit in tincidunt at donec. Eget ipsum

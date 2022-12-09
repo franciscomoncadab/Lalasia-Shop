@@ -30,7 +30,7 @@ function Discover() {
            </button>
       </div>
       <div className="mt-[30px]">
-          <img src={img1} className=" h-[160px]" />
+          <img src={img1} alt="img1" />
       </div>
     </div>
   );
