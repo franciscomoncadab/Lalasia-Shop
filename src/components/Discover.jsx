@@ -25,7 +25,7 @@ function Discover() {
                className="shadow-[0px_4px_30px_-20px_rgba(175,173,181,0.2)] shadow-title-color text-[14px] font-exodo font-medium w-full h-[54px] pl-[50px]"
                placeholder="Search property"
            />
-           <button className="absolute bg-primary-color text-screen-color px-[26px] py-[10px] z-10 left-[238px] top-[4.5px]">
+           <button className="absolute bg-primary-color text-screen-color px-[26px] py-[10px] z-10 right-[1.5%] top-[4.5px]">
                Search
            </button>
       </div>

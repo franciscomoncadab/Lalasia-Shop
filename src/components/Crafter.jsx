@@ -33,7 +33,7 @@ function Crafter() {
           </div>
       </div>
       <div className="flex flex-col gap-y-[20px] mt-[50px]">
-          <img src={imagen1} alt="img1" className="h-[200px]"/>
+          <img src={imagen1} alt="img1" />
           <img src={imagen2} alt="img2" className="h-[200px]"/>
       </div>
     </div>
