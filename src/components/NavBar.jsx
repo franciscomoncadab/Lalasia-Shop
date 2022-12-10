@@ -7,19 +7,19 @@ import "./navBar.css";
 function NavBar() {
   return (
     <div className="border-b-line-color border-b-[1px]">
-      <div className="nav">
-        <div className="my-auto">
-          <Logo />
+      <div className="nav xl:my-[39px]">
+        <div className="my-auto xl:my-0">
+          <Logo className="xl:w-[130px] xl:h-[42px]"/>
         </div>
         <div>
           {window.innerWidth < 1024 ? (
-            <button className="btn my-[21px]">
+            <button className="btn my-[21px] xl:my-0">
               <div></div>
               <div></div>
               <div></div>
             </button>
           ) : (
-            <div className="flex flex-row my-[30px] items-center">
+            <div className="flex flex-row my-[30px] xl:my-0 xl:mt-[10px] items-center">
                 <ul className="flex flex-row gap-x-[60px] font-exodo font-medium text-[18px] text-title-color">
                   <li>Product</li>
                   <li>Services</li>

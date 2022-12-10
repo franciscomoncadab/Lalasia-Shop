@@ -5,7 +5,7 @@ import { articles } from "../constants/articles";
 
 function Articles() {
   return (
-    <div>
+    <div className="xl:grid ">
       <Titles
         style="col"
         firstTitle="Articles"
@@ -48,7 +48,7 @@ function Articles() {
               <img
                 src={elem.images}
                 alt={elem.images}
-                className="w-[110px] h-[110px]"
+                className="w-[110px] h-[110px] xl:w-auto xl:h-auto"
               />
               <div>
                 <p className="font-exodo font-bold text-[12px] text-paragraph-color mb-[4px]">

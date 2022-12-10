@@ -2,12 +2,12 @@ import React from "react";
 
 function Titles(props) {
   return (
-    <div className={`mt-[100px] flex ${props.style === "col" ? "flex-col" : "flex-row"}`}>
-      <div className="mb-[16px]">
-        <h6 className="font-exodo font-bold text-secondary-color text-[14px]">{props.firstTitle}</h6>
-        <h3 className="font-exodo font-bold text-title-color text-[24px]">{props.secondTitle}</h3>
+    <div className={`mt-[100px] xl:mt-[180px] flex ${props.style === "col" ? "flex-col" : "flex-row space-x-[300px] items-center"}`}>
+      <div className="mb-[16px] xl:mb-0">
+        <h6 className="font-exodo font-bold text-secondary-color text-[14px] xl:text-[18px]">{props.firstTitle}</h6>
+        <h3 className="font-exodo font-bold text-title-color text-[24px] xl:text-[44px]">{props.secondTitle}</h3>
       </div>
-      <p className="font-exodo font-medium text-paragraph-color text-[14px] text-left">{props.p}</p>
+      <p className="font-exodo font-medium text-paragraph-color text-[14px] xl:text-[18px] ">{props.p}</p>
     </div>
   );
 }

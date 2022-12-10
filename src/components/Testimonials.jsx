@@ -20,12 +20,17 @@ function Testimonials() {
         />
       </div>
       <div className="mt-[30px] shadow-[0px_4px_20px_-20px_rgba(175,173,181,0.1)] shadow-title-color">
-        <Swiper loop={true} modules={[Pagination, Navigation]}>
+        <Swiper 
+          loop={true}
+          spaceBetween={window.innerWidth < 1024 ? 0 : 30}
+          slidesPerView={window.innerWidth < 1024 ? 1 : 1.9}
+          modules={[Pagination, Navigation]}
+          >
           {cardsTest.map((elem, i) => {
             return (
               <SwiperSlide key={i} className="px-[16px]">
                 <Quote className="w-[32px] h-[32px] my-[18px]" />
-                <p className="font-exodo font-medium text-[14px] text-paragraph-color mb-[18px]">
+                <p className="font-exodo font-medium text-[14px] xl:text-[18px] text-paragraph-color mb-[18px]">
                   Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
                   dignissim placerat nisi, adipiscing mauris non.
                 </p>

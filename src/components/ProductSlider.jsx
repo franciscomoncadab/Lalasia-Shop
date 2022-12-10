@@ -17,10 +17,10 @@ function ProductSlider() {
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."
         />
       </div>
-      <div className="mt-[30px]">
+      <div className="mt-[30px] xl:mt-[50px]">
         <Swiper
-          spaceBetween={20}
-          slidesPerView={1.4}
+          spaceBetween={window.innerWidth < 1024 ? 20 : 1}
+          slidesPerView={window.innerWidth < 1024 ? 1.4 : 2.95}
           loop={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
