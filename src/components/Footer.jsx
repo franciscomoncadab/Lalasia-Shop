@@ -3,7 +3,7 @@ import { ReactComponent as Logo } from "../assets/icons/lalasiaLogo.svg";
 
 function Footer() {
   return (
-    <footer className="bg-white">
+    <footer className="bg-white mb-[24px] xl:mb-[88px]">
       <hr className="my-6 border-line-color sm:mx-auto lg:my-8" />
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">

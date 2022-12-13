@@ -23,7 +23,7 @@ function Testimonials() {
         <Swiper 
           loop={true}
           spaceBetween={window.innerWidth < 1024 ? 0 : 30}
-          slidesPerView={window.innerWidth < 1024 ? 1 : 1.9}
+          slidesPerView={window.innerWidth < 1024 ? 1 : 2.3}
           modules={[Pagination, Navigation]}
           >
           {cardsTest.map((elem, i) => {
