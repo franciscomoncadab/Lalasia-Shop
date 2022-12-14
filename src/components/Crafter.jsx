@@ -6,7 +6,7 @@ import imagen2 from "../assets/images/imagen2.png";
 function Crafter() {
   return (
     <div className="lg:grid lg:grid-flow-col lg:items-start">
-      <div className="lg:w-[580px]">
+      <div className="lg:w-auto xl:w-[580px]">
         <Titles
           mar="[50px]"
           colm="col"
@@ -14,11 +14,11 @@ function Crafter() {
           secondTitle="Crafted by talented and high quality material"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."
         />
-          <button className="bg-primary-color font-exodo font-bold text-[14px] xl:text-[18px] lg:w-[170px] mt-[30px] lg:mt-[90px] text-screen-color w-full h-[48px]">
+          <button className="bg-primary-color font-exodo font-bold text-[14px] xl:text-[18px] lg:w-[170px] mt-[30px] lg:mt-[40px] xl:mt-[90px] text-screen-color w-full h-[48px]">
                Learn More
           </button>
       </div>
-      <div className="mt-[30px] lg:mt-[110px] xl:mt-[230px] lg:col-start-2 lg:col-span-2 lg:h-[99px]">
+      <div className="mt-[30px] lg:mt-[110px] xl:mt-[230px] lg:col-start-2 lg:col-span-2 xl:h-[99px] lg:h-auto lg:ml-[30px]">
           <div className="flex flex-row gap-x-[20px] w-full lg:gap-x-[63px] lg:justify-end">
                <div>
                     <p className="font-exodo font-bold text-[22px] lg:text-[44px] text-title-color">20 +</p>
@@ -34,11 +34,11 @@ function Crafter() {
                </div>
           </div>
       </div>
-      <div className="mt-[50px] lg:lg:col-span-1 xl:mt-[50px]">
+      <div className="mt-[50px] lg:lg:col-span-1 lg:mt-[35px] xl:mt-[50px]">
           <img src={imagen1} alt="img1" className="h-[200px] lg:h-auto lg:mr-[50px] object-cover" />
       </div>
-      <div className="mt-[20px] lg:mt-[-197px] lg:col-start-2 lg:col-span-2">
-          <img src={imagen2} alt="img2" className="w-full h-[200px] lg:h-auto object-cover"/>
+      <div className="mt-[20px] lg:mt-[-90px] lg:ml-[30px] xl:mt-[-197px] lg:col-start-2 lg:col-span-2">
+          <img src={imagen2} alt="img2" className="w-full h-[200px] lg:h-[300px] xl:h-auto object-cover"/>
 
       </div>
     </div>

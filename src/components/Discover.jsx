@@ -9,11 +9,11 @@ function Discover() {
     <div className="mt-[50px] xl:mt-[100px]">
       <div className="flex flex-col justify-center my-0 mx-auto">
         <div className="relative">
-          <CircularLogo className="absolute top-[24.88px] left-[-3%] w-[60.43px] h-[60.43px] xl:w-full xl:h-full xl:left-[-38%] xl:top-[50%]" />
-          <h3 className="font-bold font-exodo text-[26px] xl:text-[64px] text-center text-title-color leading-[82.2px]">
+          <CircularLogo className="absolute top-[24.88px] left-[-3%] w-[60.43px] h-[60.43px] xl:w-full xl:h-full lg:left-[30%] xl:left-[-37.7%] xl:top-[86%]" />
+          <h3 className="font-bold font-exodo text-[26px] xl:text-[64px] text-center text-title-color xl:leading-[82.2px]">
             Discover Furniture With <br /> High Quality Wood
           </h3>
-          <Stars className="absolute right-[10%] top-[37px] xl:right-[23%] xl:top-[50%] w-[24px] h-[24px] xl:w-[51px] xl:h-[51px]" />
+          <Stars className="absolute right-[10%] top-[37px] lg:right-[34%] xl:right-[22%] xl:top-[50%] w-[24px] h-[24px] xl:w-[51px] xl:h-[51px]" />
         </div>
         <div className="mt-[20px] xl:mt-[30px]">
           <p className="text-paragraph-color text-center text-[14px] xl:text-[18px] xl:px-[247.5px] font-medium font-exodo xl:leading-[32.4px]">

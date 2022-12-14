@@ -7,7 +7,7 @@ function Articles() {
   return (
     <div className="lg:flex lg:gap-[20px] xl:gap-x-[50px]">
       <div>
-        <div className="xl:w-[544px]">
+        <div className="xl:w-[582px]">
           <Titles
             mar="[30px]"
             colm="col"

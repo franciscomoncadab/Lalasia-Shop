@@ -7,13 +7,13 @@ function Benefits() {
     <div>
       <div>
         <Titles
-          colm={`${window.innerWidth < 1024 ? "col" : "row"}`}
+          colm={`${window.innerWidth < 1443 ? "col" : "row"}`}
           firstTitle="Benefits"
           secondTitle="Benefits when using our services"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."
         />
       </div>
-      <div className="flex flex-col xl:flex-row xl:gap-x-[29px] xl:gap-y-0 gap-y-[20px] mt-[30px] xl:mt-[50px]">
+      <div className="flex flex-col lg:flex-row xl:gap-x-[29px] xl:gap-y-0 gap-y-[20px] mt-[30px] xl:mt-[50px]">
           {cards.map((elem, i) => {
                return (
                     <div key={i} className="shadow-title-color border-none py-[16px] pl-[23px] :pr-[25px] shadow-[0px_4px_20px_-20px_rgba(175,173,181,0.1)]">

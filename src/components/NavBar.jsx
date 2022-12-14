@@ -2,7 +2,7 @@ import React from "react";
 import { ReactComponent as Logo } from "../assets/icons/lalasiaLogo.svg";
 import { ReactComponent as Bag } from "../assets/icons/bag-2.svg";
 import { ReactComponent as User } from "../assets/icons/user.svg";
-import "./navBar.css";
+import "../assets/scss/main.scss";
 
 function NavBar() {
   return (
