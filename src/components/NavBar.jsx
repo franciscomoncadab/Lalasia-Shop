@@ -21,15 +21,15 @@ function NavBar() {
           ) : (
             <div className="flex flex-row my-[30px] xl:my-0 xl:mt-[10px] items-center">
                 <ul className="flex flex-row gap-x-[60px] font-exodo font-medium text-[18px] text-title-color">
-                  <li>Product</li>
-                  <li>Services</li>
-                  <li>Article</li>
-                  <li>About Us</li>
+                  <a href="/">Product</a>
+                  <a href="/">Services</a>
+                  <a href="/">Article</a>
+                  <a href="/">About Us</a>
                 </ul>
             </div>
           )}
         </div>
-          <div className="lg:flex lg:flex-row gap-x-[28px] items-center hidden">
+          <div className="lg:flex lg:flex-row gap-x-[28px] items-center cursor-pointer hidden">
                 <Bag />
                 <User />
           </div>

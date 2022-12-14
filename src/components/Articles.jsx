@@ -9,7 +9,8 @@ function Articles() {
       <div>
         <div className="xl:w-[544px]">
           <Titles
-            style="col"
+            mar="[30px]"
+            colm="col"
             firstTitle="Articles"
             secondTitle="The best furniture comes from Lalasia"
             p="Pellentesque etiam blandit in tincidunt at donec."

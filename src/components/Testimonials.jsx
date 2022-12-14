@@ -11,15 +11,16 @@ import "swiper/scss/pagination";
 function Testimonials() {
   return (
     <div>
-      <div>
+      <div className="xl:w-[656px] xl:mx-auto xl:text-center">
         <Titles
-          style="col"
+          mar="[30px]"
+          colm="col"
           firstTitle="Testimonials"
           secondTitle="What our customer say"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."
         />
       </div>
-      <div className="mt-[30px] shadow-[0px_4px_20px_-20px_rgba(175,173,181,0.1)] shadow-title-color">
+      <div className="mt-[30px] xl:mt-[50px] shadow-[0px_4px_20px_-20px_rgba(175,173,181,0.1)] shadow-title-color">
         <Swiper 
           loop={true}
           spaceBetween={window.innerWidth < 1024 ? 0 : 30}
@@ -29,8 +30,8 @@ function Testimonials() {
           {cardsTest.map((elem, i) => {
             return (
               <SwiperSlide key={i} className="px-[16px]">
-                <Quote className="w-[32px] h-[32px] my-[18px]" />
-                <p className="font-exodo font-medium text-[14px] xl:text-[18px] text-paragraph-color mb-[18px]">
+                <Quote className="w-[32px] h-[32px] my-[18px] xl:my-[26px] xl:w-[40px] xl:h-[40px]" />
+                <p className="font-exodo font-medium text-[14px] xl:text-[18px] xl:leading-[32.4px] text-paragraph-color mb-[18px]">
                   Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
                   dignissim placerat nisi, adipiscing mauris non.
                 </p>
@@ -39,15 +40,15 @@ function Testimonials() {
                     <img
                       src={elem.image}
                       alt={elem.image}
-                      className="w-[28px] h-[28px]"
+                      className="w-[28px] h-[28px] xl:w-auto xl:h-auto"
                     />
-                    <h6 className="font-exodo font-bold text-[14px] text-title-color">
+                    <h6 className="font-exodo font-bold text-[14px] xl:text-[20px] text-title-color">
                       {elem.name}
                     </h6>
                   </div>
                   <div className="flex flex-row items-center gap-x-[12px]">
                     <Star className="w-[20px] h-[19.02px]" />
-                    <h6 className="font-exodo font-bold text-[14px] text-title-color">
+                    <h6 className="font-exodo font-bold text-[14px] xl:text-[18px] text-title-color">
                       {elem.avg}
                     </h6>
                   </div>
