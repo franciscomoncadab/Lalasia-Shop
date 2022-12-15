@@ -36,6 +36,25 @@
           gap-8 
           sm:gap-[30px] 
           sm:grid-cols-3 
-          xl:gap-[104px]
+          xl:gap-[80px]
+          leading-[32.4px];
+
+          &-title{
+               font-weight: $font-weight-700;
+               @apply
+               mb-[14px] 
+               xl:mb-[20px] 
+               text-[16px] 
+               xl:text-[20px] 
+               text-title-color;
+          }
+
+          &-list{
+               font-weight: $font-weight-500;
+               @apply
+               text-paragraph-color 
+               text-[14px] 
+               xl:text-[18px];
+          }
      }
 }

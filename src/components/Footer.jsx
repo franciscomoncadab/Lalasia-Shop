@@ -15,79 +15,79 @@ function Footer() {
         </div>
         <div className="footer__menuFooter">
           <div>
-            <h6 className="mb-[14px] xl:mb-[20px] text-[16px] xl:text-[20px] font-bold font-exodo text-title-color">
+            <h6 className="footer__menuFooter-title">
               Product
             </h6>
-            <ul className="text-paragraph-color text-[14px] xl:text-[18px] font-medium font-exodo">
+            <ul className="footer__menuFooter-list">
               <li className="mb-[6px] xl:mb-[12px]">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   New Arrivals
                 </a>
               </li>
               <li className="mb-[6px] xl:mb-[12px]">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Best Selling
                 </a>
               </li>
               <li className="mb-[6px] xl:mb-[12px]">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Home Decor
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Kitchen Set
                 </a>
               </li>
             </ul>
           </div>
-          <div>
-            <h6 className="mb-[14px] xl:mb-[20px] text-[16px] xl:text-[20px] font-bold font-exodo text-title-color">
+          <div className="lg:text-center">
+            <h6 className="footer__menuFooter-title">
               Services
             </h6>
-            <ul className="text-paragraph-color text-[14px] xl:text-[18px] font-medium font-exodo">
+            <ul className="footer__menuFooter-list">
               <li className="mb-[6px] xl:mb-[12px]">
                 <a
-                  href="#"
+                  href="/"
                   className="hover:underline "
                 >
                   Catalog
                 </a>
               </li>
-              <li className="mb-[6px] xl:mb-[12px]">
-                <a href="#" className="hover:underline">
+              <li className="mb-[6px] xl:mb-[12px] xl:text-justify xl:ml-[15px]">
+                <a href="/" className="hover:underline">
                   Blog
                 </a>
               </li>
-              <li className="mb-[6px] xl:mb-[12px]">
-                <a href="#" className="hover:underline">
+              <li className="mb-[6px] xl:mb-[12px] xl:text-justify xl:ml-[15px]">
+                <a href="/" className="hover:underline">
                   FaQ
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:underline">
+              <li className="xl:ml-[15px] xl:text-justify">
+                <a href="/" className="hover:underline">
                   Pricing
                 </a>
               </li>
             </ul>
           </div>
-          <div>
-            <h6 className="mb-[14px] xl:mb-[20px] text-[16px] xl:text-[20px] font-bold font-exodo text-title-color">
+          <div className="lg:text-center">
+            <h6 className="footer__menuFooter-title">
               Follow Us
             </h6>
-            <ul className="text-paragraph-color text-[14px] xl:text-[18px] font-medium font-exodo ">
+            <ul className="footer__menuFooter-list">
               <li className="mb-[6px] xl:mb-[12px]">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Facebook
                 </a>
               </li>
               <li className="mb-[6px] xl:mb-[12px]">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Instagram
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:underline">
+              <li className="xl:text-justify xl:ml-[12px]">
+                <a href="/" className="hover:underline">
                   Twitter
                 </a>
               </li>
