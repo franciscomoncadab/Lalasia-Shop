@@ -8,7 +8,7 @@ export const titlesP = [
           placeholder: 'Happy Client'
      },
      { 
-          number: '150 +',
+          number: '150+',
           placeholder: 'Project finished'
      }
 ]

@@ -3,11 +3,12 @@ import Titles from "./Titles";
 import {titlesP} from "../constants/productsTitle";
 import imagen1 from "../assets/images/imagen1.png";
 import imagen2 from "../assets/images/imagen2.png";
+import "../assets/scss/main.scss";
 
 function Crafter() {
   return (
-    <div className="lg:grid lg:grid-flow-col lg:items-start">
-      <div className="lg:w-auto xl:w-[580px]">
+    <div className="crafter">
+      <div className="crafter__titles">
         <Titles
           mar="[50px]"
           colm="col"
@@ -15,24 +16,24 @@ function Crafter() {
           secondTitle="Crafted by talented and high quality material"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient. morbi fermentum, vivamus et accumsan dui tincidunt pulvinar"
         />
-          <button className="bg-primary-color font-exodo font-bold text-[14px] xl:text-[18px] lg:w-[170px] mt-[30px] lg:mt-[45px] text-screen-color w-full h-[48px]">
+          <button className="crafter__titles-button">
                Learn More
           </button>
       </div>
-      <div className="mt-[30px] lg:mt-[110px] xl:mt-[220px] lg:col-start-2 lg:col-span-2 xl:h-[99px] lg:h-auto lg:ml-[20px]">
-          <div className="flex flex-row gap-x-[20px] w-full lg:gap-x-[63px] lg:justify-end">
+      <div className="crafter__elements">
+          <div className="flex flex-row gap-x-[20px] w-full lg:gap-x-[55px] lg:justify-end">
                {titlesP.map((elm, i) => {
                 return (
                   <div>
-                    <p className="font-exodo font-bold text-[22px] lg:text-[44px] text-title-color">{elm.number}</p>
-                    <p className="font-exodo font-medium text-[14px] lg:text-[18px] text-paragraph-color">{elm.placeholder}</p>
+                    <p className="crafter__elements-number">{elm.number}</p>
+                    <p className="crafter__elements-paragraph">{elm.placeholder}</p>
                   </div>
                 )
                })}
           </div>
       </div>
       <div className="mt-[50px] lg:lg:col-span-1 lg:mt-[35px] xl:mt-[50px]">
-          <img src={imagen1} alt="img1" className="h-[200px] lg:h-auto lg:mr-[50px] object-cover" />
+          <img src={imagen1} alt="img1" className="h-[200px] xl:h-auto xl:mr-[20px] object-cover" />
       </div>
       <div className="mt-[20px] lg:mt-[-90px] lg:ml-[30px] xl:mt-[-197px] lg:col-start-2 lg:col-span-2">
           <img src={imagen2} alt="img2" className="w-full h-[200px] lg:h-[300px] xl:h-auto object-cover"/>

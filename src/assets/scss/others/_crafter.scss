@@ -1,0 +1,58 @@
+.crafter{
+     font-family: $exodofont;
+     @apply
+     lg:grid
+     lg:grid-flow-col
+     lg:items-start;
+
+     &__titles{
+          @apply
+          lg:w-auto
+          xl:w-[580px];
+
+          &-button{
+               font-weight: $font-weight-700;
+               @apply
+               bg-primary-color 
+               font-exodo 
+               font-bold 
+               text-[14px] 
+               xl:text-[18px] 
+               lg:w-[170px] 
+               mt-[30px] 
+               lg:mt-[45px] 
+               text-screen-color 
+               w-full 
+               h-[48px];
+          }
+     }
+
+     &__elements{
+          @apply
+          mt-[30px] 
+          lg:mt-[110px] 
+          xl:mt-[220px] 
+          lg:col-start-2 
+          lg:col-span-2 
+          xl:h-[99px] 
+          lg:h-auto 
+          lg:ml-[20px];
+
+          &-number{
+               font-weight: $font-weight-700;
+               @apply
+               text-[22px] 
+               lg:text-[44px] 
+               text-title-color;
+          }
+
+          &-paragraph{
+               font-weight: $font-weight-500;
+               @apply
+               text-[14px] 
+               lg:text-[18px]
+               lg:mt-[8px] 
+               text-paragraph-color;
+          }
+     }
+}

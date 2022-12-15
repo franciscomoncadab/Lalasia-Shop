@@ -1,0 +1,47 @@
+.testimonials{
+     font-family: $exodofont;
+
+     &__cardContainer{
+          @apply
+          mt-[30px] 
+          xl:mt-[50px] 
+          shadow-[0px_4px_20px_-20px_rgba(175,173,181,0.1)] 
+          shadow-title-color;
+
+          &-logoQuote{
+               @apply
+               w-[32px] 
+               h-[32px] 
+               my-[18px] 
+               xl:my-[26px] 
+               xl:w-[40px] 
+               xl:h-[40px];
+          }
+
+          &-paragraph{
+               font-weight: $font-weight-500;
+               @apply
+               text-[14px] 
+               xl:text-[18px] 
+               xl:leading-[32.4px] 
+               text-paragraph-color 
+               mb-[18px];
+          }
+
+          &-elemName{
+               font-weight: $font-weight-700;
+               @apply
+               text-[14px] 
+               xl:text-[20px] 
+               text-title-color
+          }
+
+          &-elemAvg{
+               font-weight: $font-weight-700;
+               @apply
+               text-[14px] 
+               xl:text-[18px] 
+               text-title-color
+          }
+     }
+}
