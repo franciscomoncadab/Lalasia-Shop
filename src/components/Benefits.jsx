@@ -8,7 +8,7 @@ function Benefits() {
     <div className="benefit">
       <div>
         <Titles
-          colm={`${window.innerWidth < 1443 ? "col" : "row"}`}
+          colm={`${window.innerWidth < 1000 ? "col" : "row"}`}
           firstTitle="Benefits"
           secondTitle="Benefits when using our services"
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."
