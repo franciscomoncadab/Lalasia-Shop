@@ -1,38 +1,39 @@
 import React from "react";
 import { articles } from "../constants/articles";
+import "../assets/scss/main.scss";
 
 function ImagesArticle() {
   return (
-    <div>
+    <div className="xl:grid xl:gap-y-[10px]">
       {articles.map((elem, i) => {
         return (
           <div
             key={i}
-            className="flex flex-row gap-x-[14px] gap-y-[20px] mt-[20px] xl:items-center xl:space-y-[10px] xl:gap-x-[25px]"
+            className="imgContainer"
           >
             <img
               src={elem.images}
               alt={elem.images}
-              className="w-[110px] h-[110px] xl:w-auto xl:h-auto xl:mt-[6px]"
+              className="w-[110px] h-[110px] xl:w-auto xl:h-auto"
             />
             <div className="">
-              <p className="font-exodo font-bold text-[12px] xl:text-[18px] text-paragraph-color mb-[4px] xl:leading-[32.2px]">
+              <p className="imgContainer__name">
                 {elem.name}
               </p>
-              <h6 className="font-exodo font-bold text-[16px] xl:text-[24px] text-title-color">
+              <h6 className="imgContainer__titles">
                 {elem.title}
               </h6>
-              <p className="hidden font-exodo font-medium text-[18px] xl:flex text-paragraph-color mt-[14px] ">
+              <p className="imgContainer__hidenParagraph">
                 {`Pellentesque etiam blandit in tincidunt at donec. Eget ipsum .`.substring(0, 29)} ...
               </p>
-              <div className="xl:flex xl:gap-x-[24px] xl:items-center mt-[16px] ">
+              <div className="imgContainer__texts">
                 <div className="flex flex-row gap-x-[6px] items-center">
                   <img src={elem.userImg} alt={elem.userImg} />
-                  <p className="font-exodo font-bold text-[12px] xl:text-[14px] text-title-color">
+                  <p className="imgContainer__texts-paragraph">
                     {elem.userName}
                   </p>
                 </div>
-                <p className="hidden font-exodo font-medium text-[14px] text-paragraph-color lg:flex lg:items-center">Friday, 1 April 2022</p>
+                <p className="imgContainer__texts-dateText">Friday, 1 April 2022</p>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ function Articles() {
       <div>
         <div className="xl:w-[582px]">
           <Titles
-            mar="[30px]"
+            mar="[20px]"
             colm="col"
             firstTitle="Articles"
             secondTitle="The best furniture comes from Lalasia"
@@ -18,7 +18,7 @@ function Articles() {
         </div>
         <BigImageArticle />
       </div>
-      <div className="xl:mt-[207px] lg:mt-[96px]">
+      <div className="xl:mt-[193px] lg:mt-[96px]">
         <ImagesArticle />
       </div>
     </div>

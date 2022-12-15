@@ -1,0 +1,38 @@
+.discount{
+     font-family: $exodofont;
+     @apply
+     mt-[100px] 
+     xl:mt-[167px] 
+     xl:flex 
+     xl:justify-between 
+     xl:items-end;
+
+     &__title{
+          font-weight: $font-weight-700;
+          @apply
+          text-title-color 
+          text-[24px] 
+          xl:text-[44px];
+     }
+
+     &__button{
+          @apply
+          bg-primary-color 
+          flex 
+          flex-row 
+          gap-x-[10px] 
+          items-center 
+          py-[13px] 
+          px-[34.5px] 
+          mt-[16px];
+
+          &-paragraph{
+               font-weight: $font-weight-700;
+               @apply
+               text-screen-color 
+               text-[14px] 
+               xl:text-[18px];
+          }
+
+     }
+}

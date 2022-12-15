@@ -11,7 +11,7 @@ export const articles = [
           name: 'Design Inspiration',
           title: 'How to make your interiors cooler and more stylish',
           userImg: './images/userArticle2.png',
-          userName: 'By Jerremy Jean',
+          userName: 'By Michaela Augus',
      },
      {
           images: './images/article3.png',

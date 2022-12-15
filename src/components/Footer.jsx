@@ -1,18 +1,19 @@
 import React from "react";
 import { ReactComponent as Logo } from "../assets/icons/lalasiaLogo.svg";
+import "../assets/scss/main.scss"
 
 function Footer() {
   return (
     <footer className="bg-white mb-[24px] xl:mb-[88px]">
       <hr className="my-6 border-line-color sm:mx-auto lg:my-8 xl:my-[80px]" />
-      <div className="md:flex md:justify-between">
-        <div className="mb-6 md:mb-0">
-          <Logo className="xl:w-[130.05px] xl:h-auto"/>
-          <p className="mt-[20px] xl:mt-[43px] xl:w-[505px] xl:leading-[32.4px] text-paragraph-color font-exodo font-medium text-[14px] xl:text-[18px]">
+      <div className="footer">
+        <div className="footer__logoContent">
+          <Logo className="footer__logoContent-logo"/>
+          <p className="footer__logoContent-paragraph">
           Lalasia is digital agency that help you make better experience iaculis cras in.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-8 sm:gap-[30px] sm:grid-cols-3 xl:gap-[95px]">
+        <div className="footer__menuFooter">
           <div>
             <h6 className="mb-[14px] xl:mb-[20px] text-[16px] xl:text-[20px] font-bold font-exodo text-title-color">
               Product
@@ -94,7 +95,6 @@ function Footer() {
           </div>
         </div>
       </div>
-
     </footer>
   );
 }

@@ -1,0 +1,66 @@
+.imgContainer{
+     font-family: $exodofont;
+     @apply
+     flex 
+     flex-row 
+     gap-x-[14px] 
+     gap-y-[20px] 
+     mt-[20px] 
+     xl:items-center 
+     xl:space-y-[5px] 
+     xl:gap-x-[25px];
+
+     &__name{
+          font-weight: $font-weight-700;
+          @apply
+          text-[12px] 
+          xl:text-[18px] 
+          text-paragraph-color 
+          mb-[21px];
+     }
+
+     &__titles{
+          font-weight: $font-weight-700;
+          @apply
+          text-[16px] 
+          xl:text-[24px]
+          xl:leading-[31.2px] 
+          text-title-color;
+     }
+
+     &__hidenParagraph{
+          font-weight: $font-weight-500;
+          @apply
+          hidden
+          text-[18px] 
+          xl:flex 
+          text-paragraph-color 
+          mt-[14px];
+     }
+
+     &__texts{
+          @apply
+          xl:flex 
+          xl:gap-x-[24px] 
+          xl:items-center 
+          mt-[16px];
+
+          &-paragraph{
+               font-weight: $font-weight-700;
+               @apply
+               text-[12px] 
+               xl:text-[14px] 
+               text-title-color;
+          }
+
+          &-dateText{
+               font-weight: $font-weight-500;
+               @apply
+               hidden
+               text-[14px] 
+               text-paragraph-color 
+               lg:flex 
+               lg:items-center;
+          }
+     }
+}

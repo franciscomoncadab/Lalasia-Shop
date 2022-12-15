@@ -30,7 +30,7 @@ function BigImageArticle() {
         <button className="font-exodo font-bold text-[12px] xl:text-[18px] text-screen-color mt-[12px]">
           Read More
         </button>
-        <div className="hidden xl:absolute xl:z-10 xl:flex xl:flex-row right-[-13.5%] bottom-[-58%]">
+        <div className="hidden xl:absolute xl:z-10 xl:flex xl:flex-row right-[-13.7%] bottom-[-55%]">
           <div className="bg-screen-color w-[70px] h-[70px] items-center justify-center flex"><img src={arrowLeft} alt="arrowLeft" /></div>
           <div className="bg-primary-color  w-[70px] h-[70px] items-center justify-center flex"><img src={arrowRight} alt="arrowRight" /></div>
         </div>
