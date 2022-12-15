@@ -5,11 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/scss";
 import "swiper/scss/pagination";
+import "../assets/scss/main.scss";
 
 function ProductSlider() {
   return (
-    <div>
-      <div className="text-center xl:w-[656px] xl:mx-auto">
+    <div className="productSlider">
+      <div className="productSlider__titles">
         <Titles
           mar="[30px]"
           colm="col"
@@ -33,17 +34,17 @@ function ProductSlider() {
                   <img src={elem.image} alt={`img${i}`} />
                 </div>
                 <div className="flex flex-col">
-                  <p className="font-exodo font-bold text-[12px] xl:text-[18px] mt-[14px] xl:mt-[26px] text-paragraph-color">
+                  <p className="productSlider__placeholder">
                     {elem.placeholder}
                   </p>
-                  <h3 className="font-exodo font-bold text-[16px] xl:text-[26px] text-title-color mt-[6px]">
+                  <h3 className="productSlider__sliderTitle">
                     {elem.title}
                   </h3>
-                  <p className="font-exodo font-medium text-[14px] xl:text-[18px] text-paragraph-color">
+                  <p className="productSlider__description">
                     {elem.description}
                   </p>
                   <div>
-                  <h3 className="font-exodo font-bold text-[16px] xl:text-[24px] text-title-color mt-[12px]">
+                  <h3 className="productSlider__price">
                     {elem.price}
                   </h3>
                   </div>

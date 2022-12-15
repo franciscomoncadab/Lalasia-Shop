@@ -19,8 +19,8 @@ function NavBar() {
               <div></div>
             </button>
           ) : (
-            <div className="flex flex-row my-[30px] xl:my-0 xl:mt-[10px] items-center">
-                <ul className="flex flex-row gap-x-[60px] font-exodo font-medium text-[18px] text-title-color">
+            <div className="nav__bottoms">
+                <ul className="nav__bottoms-items">
                   <a href="/">Product</a>
                   <a href="/">Services</a>
                   <a href="/">Article</a>

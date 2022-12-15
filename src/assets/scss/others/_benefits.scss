@@ -1,0 +1,47 @@
+.benefit{
+
+     &__cards{
+          @apply
+          flex 
+          flex-col 
+          lg:flex-row 
+          xl:gap-x-[29px] 
+          xl:gap-y-0 
+          gap-y-[20px] 
+          mt-[30px] 
+          xl:mt-[50px];
+
+          &-card{
+               font-family: $exodofont;
+               @apply
+               shadow-title-color 
+               border-none 
+               py-[16px] 
+               pl-[23px] 
+               pr-[25px] 
+               shadow-[0px_4px_20px_-20px_rgba(175,173,181,0.1)];
+          
+               &-title{
+                    @apply     
+                    font-bold 
+                    text-[16px] 
+                    xl:text-[24px] 
+                    mt-[14px] 
+                    xl:mt-[24px]
+                    text-title-color;
+               }
+
+               &-paragraph{
+                    @apply     
+                    font-medium 
+                    text-[14px] 
+                    xl:text-[18px] 
+                    xl:mt-[20px] 
+                    xl:leading-[32.4px] 
+                    text-paragraph-color 
+                    mb-[18px] 
+                    text-left;
+               }
+          }
+     }
+}

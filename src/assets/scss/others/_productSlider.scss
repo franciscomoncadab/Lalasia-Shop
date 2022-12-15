@@ -1,0 +1,48 @@
+.productSlider{
+     font-family: $exodofont;
+
+     &__titles{
+          @apply
+          text-center
+          xl:w-[656px]
+          xl:mx-auto;
+     }
+
+     &__placeholder{
+          font-weight: $font-weight-700;
+          @apply
+          text-[12px] 
+          xl:text-[18px] 
+          mt-[14px] 
+          xl:mt-[22px]
+          text-paragraph-color;
+     }
+
+     &__sliderTitle{
+          font-weight: $font-weight-700;
+          @apply
+          text-[16px]
+          xl:text-[26px]
+          text-title-color
+          mt-[10px];
+     }
+
+     &__description{          
+          font-weight: $font-weight-500;
+          @apply
+          text-[14px] 
+          xl:text-[18px]
+          xl:mt-[5px]
+          text-paragraph-color;
+     }
+
+     &__price{
+          font-weight: $font-weight-500;
+          @apply
+          text-[16px] 
+          xl:text-[24px]
+          text-title-color 
+          xl:mt-[18px]
+          mt-[12px];
+     }
+}

@@ -2,6 +2,29 @@
      display: flex;
      flex-direction: row;
      justify-content: space-between;     
+     font-family: $exodofont;
+
+     &__bottoms{
+          @apply
+          flex
+          flex-row
+          my-[30px]
+          xl:my-0
+          xl:mt-[10px]
+          xl:w-[461px]
+          items-center;
+
+          &-items{
+               font-weight: $font-weight-500;
+               @apply
+               flex 
+               flex-row 
+               gap-x-[60px] 
+               text-[18px] 
+               text-title-color;
+          }
+     }
+
 }
 
 hr{

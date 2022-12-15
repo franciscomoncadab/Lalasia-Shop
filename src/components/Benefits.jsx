@@ -1,10 +1,11 @@
 import React from "react";
 import Titles from "./Titles";
 import { cards } from "../constants/cards";
+import "../assets/scss/main.scss";
 
 function Benefits() {
   return (
-    <div>
+    <div className="benefit">
       <div>
         <Titles
           colm={`${window.innerWidth < 1443 ? "col" : "row"}`}
@@ -13,22 +14,30 @@ function Benefits() {
           p="Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient."
         />
       </div>
-      <div className="flex flex-col lg:flex-row xl:gap-x-[29px] xl:gap-y-0 gap-y-[20px] mt-[30px] xl:mt-[50px]">
-          {cards.map((elem, i) => {
-               return (
-                    <div key={i} className="shadow-title-color border-none py-[16px] pl-[23px] :pr-[25px] shadow-[0px_4px_20px_-20px_rgba(175,173,181,0.1)]">
-                         <div className="mb-[14px]">
-                         <img 
-                              src={elem.svg}
-                              alt={elem.svg}
-                              className="xl:w-[62px] xl:h-[62px]"
-                         />
-                         </div>
-                         <h6 className="font-exodo font-bold text-[16px] xl:text-[24px] mt-[14px] xl:mt-[24px] text-title-color">{elem.title}</h6>
-                         <p className="font-exodo font-medium text-[14px] xl:text-[18px] xl:mt-[20px] xl:leading-[32.4px] text-paragraph-color mb-[18px] text-left" >Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.</p>
-                    </div>
-               )
-          })}
+      <div className="benefit__cards">
+        {cards.map((elem, i) => {
+          return (
+            <div
+              key={i}
+              className="benefit__cards-card"
+            >
+              <div className="mb-[14px]">
+                <img
+                  src={elem.svg}
+                  alt={elem.svg}
+                  className="xl:w-[62px] xl:h-[62px]"
+                />
+              </div>
+              <h6 className="benefit__cards-card-title">
+                {elem.title}
+              </h6>
+              <p className="benefit__cards-card-paragraph">
+                Pellentesque etiam blandit in tincidunt at donec. Eget ipsum
+                dignissim placerat nisi, adipiscing mauris non.
+              </p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

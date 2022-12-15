@@ -1,0 +1,135 @@
+.discover{
+     @apply
+     mt-[50px]
+     xl:mt-[100px];
+
+     &__titles{
+          @apply
+          flex
+          flex-col
+          justify-center
+          my-0
+          mx-auto;
+
+          &-logoArrow{
+               @apply
+               absolute 
+               top-[24.88px] 
+               left-[-3%] 
+               w-[60.43px] 
+               h-[60.43px] 
+               xl:w-full 
+               xl:h-full 
+               lg:left-[30%] 
+               md:left-[20%]
+               xl:left-[-37.7%] 
+               xl:top-[86%];
+          }
+
+          &-title{
+               font-family: $exodofont;
+               font-weight: $font-weight-700;
+               @apply
+               text-[26px] 
+               xl:text-[64px] 
+               text-center 
+               text-title-color 
+               xl:leading-[82.2px];
+          }
+
+          &-logoStar{
+               @apply
+               absolute 
+               right-[10%] 
+               top-[37px]
+               md:right-[30%]
+               lg:right-[34%] 
+               xl:right-[22%] 
+               xl:top-[50%] 
+               w-[24px] 
+               h-[24px] 
+               xl:w-[51px] 
+               xl:h-[51px];
+          }
+
+          &-paragraph{
+               font-family: $exodofont;
+               font-weight: $font-weight-500;
+               @apply
+               text-paragraph-color 
+               text-center 
+               text-[14px] 
+               xl:text-[18px] 
+               xl:px-[247.5px]
+               xl:leading-[32.4px];
+          }
+     }
+
+     &__input{
+          @apply
+          xl:relative 
+          xl:z-0 
+          xl:mt-[62px];
+
+          &-container {
+               @apply
+               relative 
+               xl:absolute 
+               xl:z-10
+               xl:mt-0 
+               xl:top-[-8.6%] 
+               xl:right-[17.6%] 
+               z-0 
+               mt-[30px] 
+               mx-auto;
+          }
+
+          &-search{
+               @apply
+               absolute 
+               z-10 
+               top-[15px] 
+               left-[15px] 
+               xl:left-[28px] 
+               xl:top-[26px] 
+               xl:w-[30px] 
+               xl:h-[35px];
+          }
+
+          &-property{
+               @apply
+               shadow-[0px_4px_30px_-20px_rgba(175,173,181,0.2)]
+               shadow-title-color 
+               text-[14px] 
+               xl:text-[18px] 
+               font-exodo 
+               font-medium 
+               w-full 
+               h-[54px] 
+               pl-[50px] 
+               xl:pl-[76px] 
+               xl:h-[84px] 
+               xl:w-[810px];
+          }
+
+          &-button{
+               font-family: $exodofont;
+               font-weight: $font-weight-700;
+               @apply
+               absolute
+               bg-primary-color
+               text-[14px] 
+               xl:text-[18px]
+               text-screen-color 
+               px-[26px] 
+               py-[10px] 
+               z-10 
+               right-[1.5%] 
+               top-[4.5px] 
+               xl:px-[54.81px] 
+               xl:py-[13.5px] 
+               xl:top-[19%] 
+               xl:right-[1.7%];
+          }
+     }
+}

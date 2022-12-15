@@ -1,0 +1,34 @@
+.titleContainer{     
+     font-family: $exodofont;
+     @apply
+     mt-[100px]
+     xl:mt-[180px]
+     flex;
+
+     &__yellowTitle{
+          font-weight: $font-weight-700;
+          @apply
+          text-secondary-color 
+          text-[14px] 
+          xl:text-[18px];
+     }
+
+     &__bigTitle{
+          font-weight: $font-weight-700;
+          @apply
+          text-title-color 
+          text-[24px]
+          xl:mt-[14px]
+          xl:text-[44px] 
+          xl:leading-[57.2px];
+     }
+
+     &__paragraph{
+          font-weight: $font-weight-500;
+          @apply
+          text-paragraph-color 
+          text-[14px] 
+          xl:text-[18px] 
+          xl:leading-[32.4px];
+     }
+}
