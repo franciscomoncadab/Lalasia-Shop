@@ -14,7 +14,7 @@ function ImagesArticle() {
             <img
               src={elem.images}
               alt={elem.images}
-              className="w-[110px] h-[110px] xl:w-auto xl:h-auto"
+              className="w-[110px] h-[110px] lg:w-[176px] lg:h-[176px] xl:w-auto xl:h-auto"
             />
             <div className="">
               <p className="imgContainer__name">
