@@ -35,7 +35,7 @@ function Crafter() {
       <div className="mt-[50px] lg:lg:col-span-1 lg:mt-[35px] xl:mt-[50px]">
           <img src={imagen1} alt="img1" className="h-[200px] xl:h-auto xl:mr-[20px] object-cover" />
       </div>
-      <div className="mt-[20px] lg:mt-[-65px] lg:ml-[50px] xl:mt-[-197px] lg:col-start-2 lg:col-span-2">
+      <div className="mt-[20px] lg:mt-[-65px] lg:ml-[50px] xl:mt-[-185px] lg:col-start-2 lg:col-span-2">
           <img src={imagen2} alt="img2" className="w-full h-[200px] lg:h-[300px] xl:h-auto object-cover"/>
 
       </div>
